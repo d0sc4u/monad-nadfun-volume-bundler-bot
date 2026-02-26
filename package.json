@@ -1,0 +1,25 @@
+{
+  "name": "polymarket-trending-index-trading",
+  "version": "0.1.0",
+  "description": "TypeScript port: RSI/MACD/Momentum trending index trading on Polymarket 15m markets",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts",
+    "simulation": "tsx src/main.ts --simulation",
+    "live": "tsx src/main.ts --live"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "clob-utils-sdks": "^5.3.7",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,31 @@
+{
+  "polymarket": {
+    "gamma_api_url": "https://gamma-api.polymarket.com",
+    "clob_api_url": "https://clob.polymarket.com",
+    "api_key": "",
+    "api_secret": "",
+    "api_passphrase": "",
+    "private_key": "",
+    "proxy_wallet_address": "",
+    "signature_type": 2
+  },
+  "trending_index": {
+    "mode": "rsi",
+    "threshold": 70,
+    "lookback": 20,
+    "macd_fast_period": 12,
+    "macd_slow_period": 26,
+    "macd_signal_period": 9,
+    "use_macd_sl_filter": false
+  },
+  "trading": {
+    "enable_eth_trading": false,
+    "enable_solana_trading": false,
+    "enable_xrp_trading": false,
+    "check_interval_ms": 500,
+    "position_size": 6.0,
+    "profit_threshold": 0.05,
+    "stop_loss_threshold": 0.05,
+    "trading_start_when_remaining_minutes": 14
+  }
+}
